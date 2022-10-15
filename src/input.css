@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+.hamburger-line{
+    @apply w-[32px] h-[3px] my-2 block bg-white;
+}
+
+.hamburger-active > span:nth-child(1) {
+    @apply rotate-45;
+}
+
+.hamburger-active > span:nth-child(2) {
+    @apply scale-0;
+}
+
+.hamburger-active > span:nth-child(3) {
+    @apply -rotate-45;
+}
+
+@layer components {
+    .bg-linear {
+        background: linear-gradient(112.9deg, #048853 0.98%, rgba(0, 0, 0, 0.84) 165.36%);
+    }
+    .bg-card {
+        background: linear-gradient(124.64deg, #00985B 0%, #000000 186%);
+    }
+    .bg-card-home {
+        background: linear-gradient(150.86deg, #00985B -2.67%, #00985B 56.48%, #000000 113.25%);
+    }
+}
