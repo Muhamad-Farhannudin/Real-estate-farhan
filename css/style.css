@@ -1050,14 +1050,6 @@ video {
   background-image: url('../img/interior.png');
 }
 
-.bg-\[url\(\'\/img\/contact\/bg-contact\.png\'\)\] {
-  background-image: url('/img/contact/bg-contact.png');
-}
-
-.bg-\[url\(\'\.\/img\/contact\/bg-contact\.png\'\)\] {
-  background-image: url('./img/contact/bg-contact.png');
-}
-
 .bg-\[url\(\'\.\.\/img\/contact\/bg-contact\.png\'\)\] {
   background-image: url('../img/contact/bg-contact.png');
 }
